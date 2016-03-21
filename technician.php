@@ -62,7 +62,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="page-bar">
                         <ul class="page-breadcrumb">
                             <li>
-                                <a href="index.html">หน้าหลัก</a>
+                                <a href="main.php">หน้าหลัก</a>
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
@@ -77,177 +77,154 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!-- END PAGE HEADER-->
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="portlet light bordered">
+
+                            <div class="portlet box purple">
                                 <div class="portlet-title">
                                     <div class="caption">
-                                        <i class="icon-share font-dark"></i>
-                                        <span class="caption-subject font-dark bold uppercase"> รายการช่าง </span>
+                                        <i class="fa fa-cogs"></i> รายการช่าง </div>
+                                    <div class="tools">
+                                        <a href="javascript:;" class="collapse" data-original-title="" title=""> </a>
+                                        <a href="#portlet-config" data-toggle="modal" class="config" data-original-title="" title=""> </a>
+                                        <a href="javascript:;" class="reload" data-original-title="" title=""> </a>
+                                        <a href="javascript:;" class="remove" data-original-title="" title=""> </a>
                                     </div>
                                 </div>
                                 <div class="portlet-body">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="btn-group">
-                                                <a href="addTechnician.php" class="btn btn-warning"> เพิ่มช่าง
+                                                <a href="addTechnician.php" class="btn purple-plum"> เพิ่มช่าง
                                                     <i class="fa fa-plus"></i>
                                                 </a>
                                             </div>
                                         </div>
                                     </div><br>
-
-
-                                    <div class="portlet box red">
-                                        <div class="portlet-title">
-                                            <div class="caption">
-                                                <i class="fa fa-comments"></i> รายการช่าง </div>
-                                            <div class="tools">
-                                                <a href="#portlet-config" data-toggle="modal" class="config" data-original-title="" title=""> </a>
-                                                <a href="javascript:;" class="reload" data-original-title="" title=""> </a>
-                                            </div>
-                                        </div>
-                                        <div class="portlet-body">
-                                            <div class="table-scrollable">
-                                                <table class="table table-striped table-hover">
-                                                    <thead>
-                                                        <tr class="danger">
-                                                            <th class="table-checkbox" width="100">
-                                                                <input type="checkbox" class="group-checkable" data-set="#sample_2 .checkboxes" /> 
-                                                            </th>
-                                                            <th> ชื่อผู้ใช้ / ชื่อ - นามสกุล </th>
-                                                            <th> ติดต่อ </th>
-                                                            <th> ที่อยู่ </th>
-                                                            <th> ความถนัด </th>
-                                                            <th width="200"> # </th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                <input type="checkbox" class="checkboxes" value="1" /> 
-                                                            </td>
-                                                            <td> akharaiwt / อัครวิทย์  อาญาคำ </td>
-                                                            <td> akharawit@gmail.com<br>088936278,088546325 </td>
-                                                            <td> 90 หมู่ 2 ต.ช่อแล อ.แม่แตง จ.เชียงใหม่ 50150 </td>
-                                                            <td> เชื่อม, ซ่อมท่อ </td>
-                                                            <td>
-                                                                <a data-toggle="modal" href="#basic" href="javascript:;" class="btn btn-outline btn-circle btn-xs blue">
-                                                                    <i class="fa fa-edit"></i> View & Edit 
-                                                                </a>
-                                                                <button class="btn btn-outline btn-circle dark btn-xs red" data-toggle="confirmation" id="bs_confirmation_demo_1">
-                                                                    <i class="fa fa-trash-o"></i> Delete 
-                                                                </button>
-                                                            </td>
-                                                        </tr>
-                                                        
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                    <table class="table table-striped table-hover">
+                                        <thead>
+                                            <tr class="active">
+                                                <th class="table-checkbox" width="100">
+                                                    <input type="checkbox" class="group-checkable" data-set="#sample_2 .checkboxes" /> 
+                                                </th>
+                                                <th> ชื่อผู้ใช้ / ชื่อ - นามสกุล </th>
+                                                <th> ติดต่อ </th>
+                                                <th> ที่อยู่ </th>
+                                                <th> ความถนัด </th>
+                                                <th width="100"> # </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" class="checkboxes" value="1" /> 
+                                                </td>
+                                                <td> akharaiwt / อัครวิทย์  อาญาคำ </td>
+                                                <td> akharawit@gmail.com<br>088936278,088546325 </td>
+                                                <td> 90 หมู่ 2 ต.ช่อแล อ.แม่แตง จ.เชียงใหม่ 50150 </td>
+                                                <td> เชื่อม, ซ่อมท่อ </td>
+                                                <td>
+                                                    <a data-toggle="modal" href="#basic" href="javascript:;" class="btn btn-outline btn-circle btn-xs blue">
+                                                        <i class="fa fa-edit"></i>
+                                                    </a>
+                                                    <button class="btn btn-outline btn-circle dark btn-xs red" data-toggle="confirmation" id="bs_confirmation_demo_1">
+                                                        <i class="fa fa-trash-o"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
 
                                     <div class="modal fade" id="basic" tabindex="-1" role="basic" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                                                    <h4 class="modal-title">View & Edit</h4>
+                                                    <h4 class="modal-title">แสดง & แก้ไขข้อมูล</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <!-- BEGIN FORM-->
                                                     <form action="#" id="form_sample_2">
                                                         <div class="form-body">
                                                             <div class="form-group form-md-line-input">
-                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                                 <label for="form_control_1">ชื่อผู้ใช้
                                                                     <span class="required">*</span>
                                                                 </label>
-                                                                <span class="help-block">Enter your name...</span>
                                                             </div>
                                                             <div class="form-group form-md-line-input">
-                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                                 <label for="form_control_1">ชื่อ
                                                                     <span class="required">*</span>
                                                                 </label>
-                                                                <span class="help-block">Enter your name...</span>
                                                             </div>
                                                             <div class="form-group form-md-line-input">
-                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                                 <label for="form_control_1">นามสกุล
                                                                     <span class="required">*</span>
                                                                 </label>
-                                                                <span class="help-block">Enter your name...</span>
                                                             </div>
                                                             <div class="form-group form-md-line-input">
-                                                                <textarea class="form-control" name="memo" rows="2"></textarea>
+                                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
                                                                 <label for="form_control_1">ที่อยู่</label>
-                                                                <span class="help-block">Some help goes here...</span>
                                                             </div>
                                                             <div class="form-group form-md-line-input">
                                                                 <select class="form-control" name="delivery">
                                                                     <option value="">กรุณาเลือกจังหวัด</option>
-                                                                    <option value="1">KTB</option>
-                                                                    <option value="2">KBANT</option>
-                                                                    <option value="3">BAY</option>
+                                                                    <option value="1">เชียงใหม่</option>
+                                                                    <option value="2">ลำปาง</option>
+                                                                    <option value="3">...</option>
                                                                 </select>
                                                                 <label for="form_control_1">จังหวัด
                                                                     <span class="required">*</span>
                                                                 </label>
-                                                                <span class="help-block">Some help goes here...</span>
                                                             </div>
 
                                                             <div class="form-group form-md-line-input">
                                                                 <select class="form-control" name="delivery">
                                                                     <option value="">กรุณาเลือกอำเภอ</option>
-                                                                    <option value="1">KTB</option>
-                                                                    <option value="2">KBANT</option>
-                                                                    <option value="3">BAY</option>
+                                                                    <option value="1">แม่แตง</option>
+                                                                    <option value="2">ป่าขาม</option>
+                                                                    <option value="3">งาย</option>
                                                                 </select>
                                                                 <label for="form_control_1">อำเภอ
                                                                     <span class="required">*</span>
                                                                 </label>
-                                                                <span class="help-block">Some help goes here...</span>
                                                             </div>
 
                                                             <div class="form-group form-md-line-input">
                                                                 <select class="form-control" name="delivery">
                                                                     <option value="">กรุณาเลือกตำบล</option>
-                                                                    <option value="1">KTB</option>
-                                                                    <option value="2">KBANT</option>
-                                                                    <option value="3">BAY</option>
+                                                                    <option value="1">สันป่านัก</option>
+                                                                    <option value="2">บ้างปง</option>
+                                                                    <option value="3">ไก่ทอง</option>
                                                                 </select>
                                                                 <label for="form_control_1">ตำบล
                                                                     <span class="required">*</span>
                                                                 </label>
-                                                                <span class="help-block">Some help goes here...</span>
                                                             </div>
                                                             <div class="form-group form-md-line-input">
-                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                                 <label for="form_control_1">เบอร์โทร
                                                                     <span class="required">*</span>
                                                                 </label>
-                                                                <span class="help-block">Enter your name...</span>
                                                             </div>
                                                             <div class="form-group form-md-line-input">
-                                                                <input type="email" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                                <input type="email" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูลตามแบบฟอร์ม">
                                                                 <label for="form_control_1">อีเมล
                                                                     <span class="required">*</span>
                                                                 </label>
-                                                                <span class="help-block">Enter your name...</span>
+                                                                <span class="help-block">เช่น info@gmail.com</span>
                                                             </div>
                                                             <div class="form-group form-md-line-input">
-                                                                <textarea class="form-control" name="memo" rows="2"></textarea>
+                                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
                                                                 <label for="form_control_1">ความถนัด</label>
-                                                                <span class="help-block">Some help goes here...</span>
                                                             </div>
-                                                        </div><br>
-                                                        
+                                                        </div>
                                                     </form>
                                                     <!-- END FORM-->
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn dark btn-outline" data-dismiss="modal"> ยกเลิก </button>
-                                                    <button type="button" class="btn green"> แก้ไข </button>
+                                                    <button type="button" class="btn green"> แก้ไขข้อมูล </button>
                                                 </div>
                                             </div>
                                             <!-- /.modal-content -->

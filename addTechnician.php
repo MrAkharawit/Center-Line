@@ -66,7 +66,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
-                                <a href="customer.php"> จัดการช่าง</a>
+                                <a href="technician.php"> รายการช่าง</a>
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
@@ -84,116 +84,108 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="portlet light bordered">
                                 <div class="portlet-title">
                                     <div class="caption font-red-sunglo">
-                                        <i class="icon-settings font-red-sunglo"></i>
-                                        <span class="caption-subject bold uppercase"> เพิ่มช่าง</span>
+                                        <i class="icon-settings font-purple"></i>
+                                        <span class="caption-subject font-purple bold uppercase"> เพิ่มช่าง</span>
                                     </div>
                                 </div>
                                 <div class="portlet-body">
                                     <!-- BEGIN FORM-->
                                     <form action="#" id="form_sample_2">
-                                        <div class="form-body">
-                                           
+                                        <div class="form-body col-lg-6">
                                             <div class="form-group form-md-line-input">
-                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                 <label for="form_control_1">ชื่อผู้ใช้
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
                                             </div>
-                                             <div class="form-group form-md-line-input">
-                                                <input type="password" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                            <div class="form-group form-md-line-input">
+                                                <input type="password" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกรหัสผ่าน">
                                                 <label for="form_control_1">รหัสผ่าน
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <input type="password" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                <input type="password" class="form-control" name="name" id="form_control_1" placeholder="กรุณายืนยันรหัสผ่าน">
                                                 <label for="form_control_1">ยืนยันรหัสผ่าน
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
                                             </div>
-                                             <div class="form-group form-md-line-input">
-                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                            <div class="form-group form-md-line-input">
+                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                 <label for="form_control_1">ชื่อ
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                 <label for="form_control_1">นามสกุล
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <textarea class="form-control" name="memo" rows="2"></textarea>
+                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
+                                                <label for="form_control_1">ความถนัด</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-body col-lg-6">
+                                            <div class="form-group form-md-line-input">
+                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
                                                 <label for="form_control_1">ที่อยู่</label>
-                                                <span class="help-block">Some help goes here...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
                                                 <select class="form-control" name="delivery">
                                                     <option value="">กรุณาเลือกจังหวัด</option>
-                                                    <option value="1">KTB</option>
-                                                    <option value="2">KBANT</option>
-                                                    <option value="3">BAY</option>
+                                                    <option value="1">เชียงใหม่</option>
+                                                    <option value="2">ลำปาง</option>
+                                                    <option value="3">...</option>
                                                 </select>
                                                 <label for="form_control_1">จังหวัด
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Some help goes here...</span>
                                             </div>
 
                                             <div class="form-group form-md-line-input">
                                                 <select class="form-control" name="delivery">
                                                     <option value="">กรุณาเลือกอำเภอ</option>
-                                                    <option value="1">KTB</option>
-                                                    <option value="2">KBANT</option>
-                                                    <option value="3">BAY</option>
+                                                    <option value="1">แม่แตง</option>
+                                                    <option value="2">ป่าขาม</option>
+                                                    <option value="3">งาย</option>
                                                 </select>
                                                 <label for="form_control_1">อำเภอ
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Some help goes here...</span>
                                             </div>
 
                                             <div class="form-group form-md-line-input">
                                                 <select class="form-control" name="delivery">
                                                     <option value="">กรุณาเลือกตำบล</option>
-                                                    <option value="1">KTB</option>
-                                                    <option value="2">KBANT</option>
-                                                    <option value="3">BAY</option>
+                                                    <option value="1">สันป่านัก</option>
+                                                    <option value="2">บ้างปง</option>
+                                                    <option value="3">ไก่ทอง</option>
                                                 </select>
                                                 <label for="form_control_1">ตำบล
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Some help goes here...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                 <label for="form_control_1">เบอร์โทร
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <input type="email" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                <input type="email" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูลตามแบบฟอร์ม">
                                                 <label for="form_control_1">อีเมล
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
-                                            </div>
-                                            <div class="form-group form-md-line-input">
-                                                <textarea class="form-control" name="memo" rows="2"></textarea>
-                                                <label for="form_control_1">ความถนัด</label>
-                                                <span class="help-block">Some help goes here...</span>
+                                                <span class="help-block">เช่น info@gmail.com</span>
                                             </div>
                                         </div>
+
                                         <div class="form-actions">
                                             <div class="row">
-                                                <div class="col-md-12"><br><br>
+                                                <div class="col-md-12">
                                                     <button type="submit" class="btn green"> บันทึกข้อมูล </button>
                                                     <button type="reset" class="btn default"> เริ่มใหม่ </button>
                                                 </div>

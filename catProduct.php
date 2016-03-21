@@ -107,14 +107,20 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!-- END PAGE HEADER-->
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="portlet light bordered">
+
+
+                            <div class="portlet box green">
                                 <div class="portlet-title">
                                     <div class="caption">
-                                        <i class="icon-directions font-red"></i>
-                                        <span class="caption-subject font-red uppercase"> หมวดหมู่สินค้า</span>
+                                        <i class="fa fa-cogs"></i> หมวดหมู่สินค้า </div>
+                                    <div class="tools">
+                                        <a href="javascript:;" class="collapse" data-original-title="" title=""> </a>
+                                        <a href="#portlet-config" data-toggle="modal" class="config" data-original-title="" title=""> </a>
+                                        <a href="javascript:;" class="reload" data-original-title="" title=""> </a>
+                                        <a href="javascript:;" class="remove" data-original-title="" title=""> </a>
                                     </div>
                                 </div>
-                                <div class="portlet-body">
+                                <div class="portlet-body flip-scroll">
                                     <div id="tree_1" class="tree-demo">
                                         <ul>
                                             <li data-jstree='{ "selected" : true }'> <a href="cusProduct.php"> หมวดอุกรณ์</a>
@@ -151,8 +157,8 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="portlet light bordered">
                                 <div class="portlet-title">
                                     <div class="caption">
-                                        <i class="icon-directions font-red"></i>
-                                        <span class="caption-subject font-red uppercase"> เพิ่มหมวดหมู่สินค้า</span>
+                                        <i class="icon-directions font-green-sharp"></i>
+                                        <span class="caption-subject font-green-sharp sbold"> เพิ่มหมวดหมู่สินค้า</span>
                                     </div>
                                 </div>
                                 <div class="portlet-body">
@@ -164,17 +170,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="alert alert-success display-hide">
                                                 <button class="close" data-close="alert"></button> Your form validation is successful! </div>
                                             <div class="form-group form-md-line-input">
-                                                <input type="text" class="form-control" name="name" id="form_control_1">
+                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                 <label for="form_control_1">ชื่อประเภทสินค้า
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your text...</span>
                                             </div>
                                         </div>
                                         <div class="form-actions">
                                             <div class="row">
-                                                <div class="col-md-12"><br><br>
-                                                    <button type="submit" class="btn green"h> บันทึกข้อมูล </button>
+                                                <div class="col-md-12">
+                                                    <button type="submit" class="btn green"> บันทึกข้อมูล </button>
                                                     <button type="reset" class="btn default"> เริ่มใหม่ </button>
                                                 </div>
                                             </div>

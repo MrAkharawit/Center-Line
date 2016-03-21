@@ -62,7 +62,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="page-bar">
                         <ul class="page-breadcrumb">
                             <li>
-                                <a href="index.html">หน้าหลัก</a>
+                                <a href="main.php">หน้าหลัก</a>
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
@@ -72,27 +72,31 @@ License: You must have a valid license purchased only from themeforest(the above
                     </div>
                     <!-- END PAGE BAR -->
                     <!-- BEGIN PAGE TITLE-->
-                    <h3 class="page-title"> จัดการตำแหน่งงาน </h3>
+                    <h3 class="page-title"> ตำแหน่งงาน </h3>
                     <!-- END PAGE TITLE-->
                     <!-- END PAGE HEADER-->
                     <div class="row">
                         <div class="col-md-7">
-                            <div class="portlet light bordered">
+                             <div class="portlet box red">
                                 <div class="portlet-title">
                                     <div class="caption">
-                                        <i class="icon-share font-dark"></i>
-                                        <span class="caption-subject font-dark bold uppercase"> รายการตำแหน่งงาน </span>
+                                        <i class="fa fa-cogs"></i> รายการตำแหน่งงาน </div>
+                                    <div class="tools">
+                                        <a href="javascript:;" class="collapse" data-original-title="" title=""> </a>
+                                        <a href="#portlet-config" data-toggle="modal" class="config" data-original-title="" title=""> </a>
+                                        <a href="javascript:;" class="reload" data-original-title="" title=""> </a>
+                                        <a href="javascript:;" class="remove" data-original-title="" title=""> </a>
                                     </div>
                                 </div>
                                 <div class="portlet-body">
-                                    <table class="table table-striped table-bordered" >
+                                    <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_2">
                                         <thead>
-                                            <tr class="success">
+                                            <tr>
                                                 <th width="50" class="table-checkbox">
                                                     <input type="checkbox" class="group-checkable" data-set="#sample_2 .checkboxes" /> 
                                                 </th>
                                                 <th> ตำแหน่งงาน </th>
-                                                <th width="200"> # </th>
+                                                <th width="50"> # </th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -101,14 +105,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <input type="checkbox" class="checkboxes" value="1" /> 
                                                 </td>
                                                 <td>
-                                                    ธุรการ
+                                                    กล่อง
                                                 </td>
                                                 <td>
                                                     <a data-toggle="modal" href="#basic" href="javascript:;" class="btn btn-outline btn-circle btn-xs blue">
-                                                        <i class="fa fa-edit"></i> View & Edit 
+                                                        <i class="fa fa-edit"></i>
                                                     </a>
                                                     <button class="btn btn-outline btn-circle dark btn-xs red" data-toggle="confirmation" id="bs_confirmation_demo_1">
-                                                        <i class="fa fa-trash-o"></i> Delete 
+                                                        <i class="fa fa-trash-o"></i>
                                                     </button>
                                                 </td>
                                             </tr>
@@ -120,7 +124,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                                                    <h4 class="modal-title">View & Edit</h4>
+                                                    <h4 class="modal-title">แก้ไขข้อมูล</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <!-- BEGIN FORM-->
@@ -133,11 +137,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <button class="close" data-close="alert"></button> Your form validation is successful! 
                                                             </div>
                                                             <div class="form-group form-md-line-input">
-                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your text">
+                                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                                 <label for="form_control_1">ตำแหน่งงาน
                                                                     <span class="required">*</span>
                                                                 </label>
-                                                                <span class="help-block">Enter your text...</span>
                                                             </div>
                                                         </div>
                                                     </form>
@@ -156,11 +159,12 @@ License: You must have a valid license purchased only from themeforest(the above
                             </div>
                         </div>
                         <div class="col-md-5">
+
                             <div class="portlet light bordered">
                                 <div class="portlet-title">
                                     <div class="caption">
-                                        <i class="icon-wrench font-green-sharp"></i>
-                                        <span class="caption-subject font-green-sharp uppercase"> เพิ่มตำแหน่งงาน </span>
+                                        <i class="icon-social-dribbble font-red"></i>
+                                        <span class="caption-subject font-red bold uppercase">เพิ่มตำแหน่งงาน</span>
                                     </div>
                                 </div>
                                 <div class="portlet-body">
@@ -174,19 +178,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <button class="close" data-close="alert"></button> Your form validation is successful! 
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your text">
+                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                 <label for="form_control_1">ตำแหน่งงาน
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your text...</span>
                                             </div>
                                         </div>
                                         <div class="form-actions">
                                             <div class="row">
                                                 <div class="col-md-12">
-                                                    <br><br>
                                                     <button type="submit" class="btn green"> บันทึกข้อมูล </button>
-                                                    <button type="reset" class="btn default"> เริ่มใหม่ </button>
+                                                    <button type="reset" class="btn default"> ล้างค่า </button>
                                                 </div>
                                             </div>
                                         </div>

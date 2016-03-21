@@ -276,20 +276,20 @@ function fn_sidebar() {
 	        </li>
 	        <li class="nav-item  ">
 	            <a href="javascript:;" class="nav-link nav-toggle">
-	                <i class="icon-basket"></i>
+	                <i class="icon-cloud-download"></i>
 	                <span class="title"> จัดการลูกค้า</span>
 	                <span class="arrow"></span>
 	            </a>
 	            <ul class="sub-menu">
                     <li class="nav-item  ">
     	                <a href="cusType.php" class="nav-link">
-                            <i class="icon-basket"></i>
+                            <i class="icon-paper-plane"></i>
                             <span class="title"> ประเภทลูกค้า</span>
                         </a>
                     </li>
 	                <li class="nav-item  ">
 	                    <a href="customer.php" class="nav-link ">
-	                        <i class="icon-basket"></i>
+	                        <i class="icon-star"></i>
 	                        <span class="title"> จัดการลูกค้า</span>
 	                    </a>
 	                </li>
@@ -308,6 +308,12 @@ function fn_sidebar() {
 	                        <span class="title"> รับแจ้ง </span>
 	                    </a>
 	                </li>
+                    <li class="nav-item  ">
+                        <a href="job.php" class="nav-link ">
+                            <i class="icon-target"></i>
+                            <span class="title"> เปิดงาน </span>
+                        </a>
+                    </li>
 	            </ul>
 	        </li>
 
@@ -320,13 +326,13 @@ function fn_sidebar() {
                 <ul class="sub-menu">
                     <li class="nav-item  ">
                         <a href="employee.php" class="nav-link ">
-                            <i class="icon-user"></i>
+                            <i class="icon-users"></i>
                             <span class="title">จัดการพนักงาน</span>
                         </a>
                     </li>
                     <li class="nav-item  ">
                         <a href="technician.php" class="nav-link ">
-                            <i class="icon-user"></i>
+                            <i class="icon-user-follow"></i>
                             <span class="title">จัดการช่าง</span>
                         </a>
                     </li>
@@ -335,20 +341,20 @@ function fn_sidebar() {
 
 	        <li class="nav-item  ">
 	            <a href="javascript:;" class="nav-link nav-toggle">
-	                <i class="icon-user"></i>
+	                <i class="icon-settings"></i>
 	                <span class="title">อื่น ๆ</span>
 	                <span class="arrow"></span>
 	            </a>
 	            <ul class="sub-menu">
 	                <li class="nav-item  ">
 	                    <a href="unit.php" class="nav-link ">
-	                        <i class="icon-user"></i>
+	                        <i class="icon-share"></i>
 	                        <span class="title">จัดการหน่วยนับ</span>
 	                    </a>
 	                </li>
                     <li class="nav-item  ">
                         <a href="position.php" class="nav-link ">
-                            <i class="icon-user"></i>
+                            <i class="icon-rocket"></i>
                             <span class="title">จัดการตำแหน่งาน</span>
                         </a>
                     </li>
@@ -366,8 +372,8 @@ function fn_footer() {
 ?>
 	 <!-- BEGIN FOOTER -->
         <div class="page-footer">
-            <div class="page-footer-inner"> 2014 &copy; Metronic by keenthemes.
-                <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase Metronic!</a>
+            <div class="page-footer-inner"> 2016 &copy; !EmptySoft.
+                <a href="www.notemptysoft.com" title="!emptysoft" target="_blank"> maintenance by notemptysoft.com </a>
             </div>
             <div class="scroll-to-top">
                 <i class="icon-arrow-up"></i>

@@ -66,17 +66,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
-                                <a href="employee.php"> รายการพนักงาน</a>
+                                <a href="job.php"> รายการรับแจ้ง</a>
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
-                                <span>เพิ่มพนักงาน</span>
+                                <span>สถานะดำเนินงาน</span>
                             </li>
                         </ul>
                     </div>
                     <!-- END PAGE BAR -->
                     <!-- BEGIN PAGE TITLE-->
-                    <h3 class="page-title"> เพิ่มพนักงาน </h3>
+                    <h3 class="page-title"> สถานะดำเนินงาน </h3>
                     <!-- END PAGE TITLE-->
                     <!-- END PAGE HEADER-->
                     <div class="row">
@@ -84,8 +84,8 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="portlet light bordered">
                                 <div class="portlet-title">
                                     <div class="caption font-red-sunglo">
-                                        <i class="icon-settings font-yellow"></i>
-                                        <span class="caption-subject font-yellow bold uppercase"> เพิ่มพนักงาน</span>
+                                        <i class="icon-settings font-red-sunglo"></i>
+                                        <span class="caption-subject bold uppercase"> สถานะดำเนินงาน</span>
                                     </div>
                                 </div>
                                 <div class="portlet-body">
@@ -93,122 +93,100 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <form action="#" id="form_sample_2">
                                         <div class="form-body col-lg-6">
                                             <div class="form-group form-md-line-input">
-                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
-                                                <label for="form_control_1">ที่อยู่</label>
-                                            </div>
-                                            <div class="form-group form-md-line-input">
                                                 <select class="form-control" name="delivery">
-                                                    <option value="">กรุณาเลือกจังหวัด</option>
-                                                    <option value="1">เชียงใหม่</option>
-                                                    <option value="2">ลำปาง</option>
-                                                    <option value="3">...</option>
+                                                    <option value="">กรุณาเลือกลูกค้า</option>
+                                                    <option value="1">KTB</option>
+                                                    <option value="2">TMB</option>
                                                 </select>
-                                                <label for="form_control_1">จังหวัด
-                                                    <span class="required">*</span>
-                                                </label>
-                                            </div>
-
-                                            <div class="form-group form-md-line-input">
-                                                <select class="form-control" name="delivery">
-                                                    <option value="">กรุณาเลือกอำเภอ</option>
-                                                    <option value="1">แม่แตง</option>
-                                                    <option value="2">ป่าขาม</option>
-                                                    <option value="3">งาย</option>
-                                                </select>
-                                                <label for="form_control_1">อำเภอ
-                                                    <span class="required">*</span>
-                                                </label>
-                                            </div>
-
-                                            <div class="form-group form-md-line-input">
-                                                <select class="form-control" name="delivery">
-                                                    <option value="">กรุณาเลือกตำบล</option>
-                                                    <option value="1">สันป่านัก</option>
-                                                    <option value="2">บ้างปง</option>
-                                                    <option value="3">ไก่ทอง</option>
-                                                </select>
-                                                <label for="form_control_1">ตำบล
+                                                <label for="form_control_1">องค์กร
                                                     <span class="required">*</span>
                                                 </label>
                                             </div>
                                             <div class="form-group form-md-line-input">
                                                 <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
-                                                <label for="form_control_1">เบอร์โทร
+                                                <label for="form_control_1">สาขา
                                                     <span class="required">*</span>
                                                 </label>
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <input type="email" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูลตามแบบฟอร์ม">
-                                                <label for="form_control_1">อีเมล
+                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
+                                                <label for="form_control_1">เลขที่ บก.
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">เช่น info@gmail.com</span>
+                                            </div>
+                                            <div class="form-group form-md-line-input">
+                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
+                                                <label for="form_control_1">รายการ</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input">
+                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
+                                                <label for="form_control_1">หมายเหตุ</label>
                                             </div>
                                         </div>
                                         <div class="form-body col-lg-6">
                                             <div class="form-group form-md-line-input">
+                                                <select class="form-control" name="delivery">
+                                                    <option value="">กรุณาเลือกช่าง</option>
+                                                    <option value="1">อัครวิทย์</option>
+                                                </select>
+                                                <label for="form_control_1">ช่าง
+                                                    <span class="required">*</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-group form-md-line-input">
+                                                <input type="text" class="form-control date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d" name="name" id="form_control_1">
+                                                <label for="form_control_1">วันที่เริ่มทำงาน
+                                                    <span class="required">*</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-group form-md-line-input">
+                                                <input type="text" class="form-control date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d" name="name" id="form_control_1">
+                                                <label for="form_control_1">วันที่สิ้นสุดการทำงาน
+                                                    <span class="required">*</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-group form-md-line-input">
                                                 <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
-                                                <label for="form_control_1">ที่อยู่</label>
-                                            </div>
-                                            <div class="form-group form-md-line-input">
-                                                <select class="form-control" name="delivery">
-                                                    <option value="">กรุณาเลือกจังหวัด</option>
-                                                    <option value="1">เชียงใหม่</option>
-                                                    <option value="2">ลำปาง</option>
-                                                    <option value="3">...</option>
-                                                </select>
-                                                <label for="form_control_1">จังหวัด
-                                                    <span class="required">*</span>
-                                                </label>
-                                            </div>
-
-                                            <div class="form-group form-md-line-input">
-                                                <select class="form-control" name="delivery">
-                                                    <option value="">กรุณาเลือกอำเภอ</option>
-                                                    <option value="1">แม่แตง</option>
-                                                    <option value="2">ป่าขาม</option>
-                                                    <option value="3">งาย</option>
-                                                </select>
-                                                <label for="form_control_1">อำเภอ
-                                                    <span class="required">*</span>
-                                                </label>
-                                            </div>
-
-                                            <div class="form-group form-md-line-input">
-                                                <select class="form-control" name="delivery">
-                                                    <option value="">กรุณาเลือกตำบล</option>
-                                                    <option value="1">สันป่านัก</option>
-                                                    <option value="2">บ้างปง</option>
-                                                    <option value="3">ไก่ทอง</option>
-                                                </select>
-                                                <label for="form_control_1">ตำบล
-                                                    <span class="required">*</span>
-                                                </label>
-                                            </div>
-                                            <div class="form-group form-md-line-input">
-                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
-                                                <label for="form_control_1">เบอร์โทร
-                                                    <span class="required">*</span>
-                                                </label>
-                                            </div>
-                                            <div class="form-group form-md-line-input">
-                                                <input type="email" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูลตามแบบฟอร์ม">
-                                                <label for="form_control_1">อีเมล
-                                                    <span class="required">*</span>
-                                                </label>
-                                                <span class="help-block">เช่น info@gmail.com</span>
+                                                <label for="form_control_1">ลักษณะงาน</label>
                                             </div>
                                         </div>
                                         <div class="form-actions">
                                             <div class="row">
                                                 <div class="col-md-12">
-                                                    <button type="submit" class="btn green"> บันทึกข้อมูล </button>
-                                                    <button type="reset" class="btn default"> ล้างค่า </button>
+                                                    <button type="submit" class="btn green-meadow"> เสร็จสิน </button>
+                                                    <button type="submit" class="btn red-sunglo"> ยกเลิกงาน </button>
                                                 </div>
                                             </div>
                                         </div>
                                     </form>
                                     <!-- END FORM-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="portlet light bordered">
+                                <div class="portlet-title">
+                                    <div class="caption font-red-sunglo">
+                                        <i class="icon-settings font-red-sunglo"></i>
+                                        <span class="caption-subject bold uppercase"> รูปภาพระหว่างการทำงาน</span>
+                                    </div>
+                                </div>
+                                <div class="portlet-body">
+                                   <div class="col-xs-3">
+                                        <img src="assets/global/img/portfolio/1200x900/13.jpg" width="100%">
+                                   </div>
+                                   <div class="col-xs-3">
+                                        <img src="assets/global/img/portfolio/1200x900/13.jpg" width="100%">
+                                   </div>
+                                   <div class="col-xs-3">
+                                        <img src="assets/global/img/portfolio/1200x900/13.jpg" width="100%">
+                                   </div>
+                                   <div class="col-xs-3">
+                                        <img src="assets/global/img/portfolio/1200x900/13.jpg" width="100%">
+                                   </div>
                                 </div>
                             </div>
                         </div>

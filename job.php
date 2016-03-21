@@ -66,13 +66,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
-                                <span> รับแจ้ง</span>
+                                <span> เปิดงาน</span>
                             </li>
                         </ul>
                     </div>
                     <!-- END PAGE BAR -->
                     <!-- BEGIN PAGE TITLE-->
-                    <h3 class="page-title"> รับแจ้ง </h3>
+                    <h3 class="page-title"> เปิดงาน </h3>
                     <!-- END PAGE TITLE-->
                     <!-- END PAGE HEADER-->
                     <div class="row">
@@ -84,7 +84,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="portlet-title">
                                     <div class="caption">
                                         <i class="icon-social-dribbble font-green"></i>
-                                        <span class="caption-subject font-green bold uppercase"> รายการรับแจ้ง </span>
+                                        <span class="caption-subject font-green bold uppercase"> รายการเปิดงาน </span>
                                     </div>
                                     <div class="actions">
                                         <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
@@ -99,11 +99,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
                                 </div>
                                 <div class="portlet-body">
-                                    <div class="btn-group">
-                                        <a href="addNotified.php" class="btn green-meadow"> เพิ่มรับแจ้ง
-                                            <i class="fa fa-plus"></i>
-                                        </a>
-                                    </div><br><br>
                                     <table class="table">
                                         <thead>
                                             <tr>
@@ -128,10 +123,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <td> TMB (แม่แตง) </td>
                                                 <td> หมายเหตุ </td>
                                                 <td> 
-                                                    <span class="label label-sm label-warning"> รอยืนยัน </span>
+                                                    <span class="label label-sm label-info"> ดำเนินงาน </span>&nbsp;
+                                                    <span class="label label-sm label-info"> รูป </span>
                                                 </td>
                                                 <td>
-                                                    <a href="confNotified.php" href="javascript:;" class="btn btn-outline btn-circle btn-xs yellow">
+                                                    <a href="statusNotified.php" href="javascript:;" class="btn btn-outline btn-circle btn-xs yellow">
                                                         <i class="fa fa-search"></i>
                                                     </a>
                                                     <button class="btn btn-outline btn-circle dark btn-xs red" data-toggle="confirmation" id="bs_confirmation_demo_1">
@@ -149,10 +145,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <td> TMB (แม่แตง) </td>
                                                 <td> หมายเหตุ </td>
                                                 <td> 
-                                                    <span class="label label-sm label-danger"> ยกเลิกงาน </span>
+                                                    <span class="label label-sm label-success"> เสร็จสิน </span>
                                                 </td>
                                                 <td>
-                                                    <a href="confNotified.php" href="javascript:;" class="btn btn-outline btn-circle btn-xs yellow">
+                                                    <a href="statusNotified.php" href="javascript:;" class="btn btn-outline btn-circle btn-xs yellow">
                                                         <i class="fa fa-search"></i>
                                                     </a>
                                                     <button class="btn btn-outline btn-circle dark btn-xs red" data-toggle="confirmation" id="bs_confirmation_demo_1">

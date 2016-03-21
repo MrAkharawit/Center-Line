@@ -66,7 +66,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
-                                <a href="customer.php"> จัดการแจ้งเตือน</a>
+                                <a href="notified.php"> รายการรับแจ้ง</a>
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
@@ -95,72 +95,64 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="form-group form-md-line-input">
                                                 <select class="form-control" name="delivery">
                                                     <option value="">กรุณาเลือกลูกค้า</option>
-                                                    <option value="1">ธุรการ</option>
-                                                    <option value="2">บัญชี</option>
-                                                    <option value="3">เอกสาร</option>
+                                                    <option value="1">KTB</option>
+                                                    <option value="2">TMB</option>
                                                 </select>
-                                                <label for="form_control_1">ลูกค้า
+                                                <label for="form_control_1">องค์กร
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Some help goes here...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                 <label for="form_control_1">สาขา
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="Enter your name">
+                                                <input type="text" class="form-control" name="name" id="form_control_1" placeholder="กรุณากรอกข้อมูล">
                                                 <label for="form_control_1">เลขที่ บก.
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
                                             </div>
-
                                             <div class="form-group form-md-line-input">
-                                                <textarea class="form-control" name="memo" rows="2"></textarea>
+                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
                                                 <label for="form_control_1">รายการ</label>
-                                                <span class="help-block">Some help goes here...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
-                                                <textarea class="form-control" name="memo" rows="2"></textarea>
+                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
                                                 <label for="form_control_1">หมายเหตุ</label>
-                                                <span class="help-block">Some help goes here...</span>
                                             </div>
                                         </div>
                                         <div class="form-body col-lg-6">
                                             <div class="form-group form-md-line-input">
                                                 <select class="form-control" name="delivery">
                                                     <option value="">กรุณาเลือกช่าง</option>
-                                                    <option value="1">ธุรการ</option>
-                                                    <option value="2">บัญชี</option>
-                                                    <option value="3">เอกสาร</option>
+                                                    <option value="1">อัครวิทย์</option>
                                                 </select>
                                                 <label for="form_control_1">ช่าง
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Some help goes here...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
                                                 <input type="text" class="form-control date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d" name="name" id="form_control_1">
                                                 <label for="form_control_1">วันที่เริ่มทำงาน
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
                                             </div>
                                             <div class="form-group form-md-line-input">
                                                 <input type="text" class="form-control date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d" name="name" id="form_control_1">
                                                 <label for="form_control_1">วันที่สิ้นสุดการทำงาน
                                                     <span class="required">*</span>
                                                 </label>
-                                                <span class="help-block">Enter your name...</span>
+                                            </div>
+                                            <div class="form-group form-md-line-input">
+                                                <textarea class="form-control" name="memo" rows="3" placeholder="กรุณากรอกข้อมูล"></textarea>
+                                                <label for="form_control_1">ลักษณะงาน</label>
                                             </div>
                                         </div>
                                         <div class="form-actions">
                                             <div class="row">
-                                                <div class="col-md-12"><br><br>
+                                                <div class="col-md-12">
                                                     <button type="submit" class="btn green"> บันทึกข้อมูล </button>
                                                     <button type="reset" class="btn default"> เริ่มใหม่ </button>
                                                 </div>

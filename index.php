@@ -56,7 +56,6 @@ License: You must have a valid license purchased only from themeforest(the above
                     <img class="login-logo login-6" src="assets/pages/img/login/login-invert.png" />
                     <div class="login-content">
                         <h1>CENTERLINE Admin Login</h1>
-                        <p> Lorem ipsum dolor sit amet, coectetuer adipiscing elit sed diam nonummy et nibh euismod aliquam erat volutpat. Lorem ipsum dolor sit amet, coectetuer adipiscing. </p>
                         <form action="javascript:;" class="login-form" method="post">
                             <div class="alert alert-danger display-hide">
                                 <button class="close" data-close="alert"></button>
@@ -120,7 +119,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             </div>
                             <div class="col-xs-7 bs-reset">
                                 <div class="login-copyright text-right">
-                                    <p>Copyright &copy; Keenthemes 2015</p>
+                                    <p>Copyright &copy; !EmptySoft 2016</p>
                                 </div>
                             </div>
                         </div>
